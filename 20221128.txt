@@ -1,0 +1,18 @@
+[참조]
+
+1. 5432 포트를 열어 준다. 
+2. 1) postgresql.conf 파일 수정
+
+- listen_addresses = '*' 로 변경
+
+ pg_hba.conf 파일 수정
+
+- IPv4 local connections 에서 host의 ADDRESS를 0.0.0.0/0으로 변경
+
+3. window에서 postgre서비스 재 시작 
+
+https://tbmaster.tistory.com/89
+https://ansan-survivor.tistory.com/408
+https://www.devkuma.com/docs/postgresql/windows-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%8B%9C%EC%9E%91-%EB%B0%8F-%EC%A4%91%EC%A7%80/
+
+
